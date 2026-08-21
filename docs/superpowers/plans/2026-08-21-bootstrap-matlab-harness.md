@@ -122,3 +122,7 @@
 Repository-level verification on 2026-08-21 showed the feature branch adds only Harness documentation, contracts, decision records, navigation skeletons, plan keepers, and `.gitignore`. The diff contains no MATLAB production implementation and no generated C/C++ output. MATLAB executable tests are not yet applicable because this bootstrap intentionally introduces no production behavior.
 
 Intentionally unresolved items remain numeric tolerance/representation, production size limits, fixed/variable sizing, memory policy, runtime budget, deployment hardware/runtime, production optimization algorithm, and MATLAB CI/license topology.
+
+## Integration
+
+2026-08-21: User selected integration option 1. The feature branch is approved to be fast-forwarded into `main` after a fresh ahead-only comparison confirms no divergence.
