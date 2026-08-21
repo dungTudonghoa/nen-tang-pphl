@@ -1,0 +1,39 @@
+# MATLAB editor/autosave
+*.asv
+*.autosave
+
+# MATLAB/Simulink generated/transient output
+slprj/
+*.slxc
+*.mex*
+
+# MATLAB Coder generated output (keep codegen/config authoritative)
+/codegen/generated/
+/codegen/lib/
+/codegen/mex/
+/codegen/dll/
+/codegen/exe/
+
+# Native build artifacts
+*.o
+*.obj
+*.a
+*.lib
+*.so
+*.dylib
+*.dll
+*.exe
+
+# Coverage / temporary output
+coverage/
+*.log
+*.tmp
+
+# Local isolated workspaces
+.worktrees/
+worktrees/
+
+# Editor / OS noise
+.DS_Store
+Thumbs.db
+.idea/
