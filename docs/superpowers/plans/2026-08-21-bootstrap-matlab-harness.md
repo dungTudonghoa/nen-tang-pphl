@@ -114,5 +114,5 @@
 - [ ] **Step 1: Compare the feature branch to `main`** and enumerate every changed path.
 - [ ] **Step 2: Check spec coverage**: toolchain, generated-code ownership, research/production boundary, learning modes, authority gate, durable plans, codegen contract, validation taxonomy, benchmark reproducibility, and deferred CI must each map to a concrete repository artifact.
 - [ ] **Step 3: Scan for forbidden premature policy**: numeric tolerances, hardware target, runtime deadline, maximum production dimensions, specific production optimization algorithm, production toolbox solver, or CI provider.
-- [ ] **Step 4: Verify there is no MATLAB production algorithm or generated C/C++ in the bootstrap diff.
-- [ ] **Step 5: Review the diff for Markdown consistency and navigability, then report remaining intentionally unresolved questions.
+- [ ] **Step 4: Verify** there is no MATLAB production algorithm or generated C/C++ in the bootstrap diff.
+- [ ] **Step 5: Review** the diff for Markdown consistency and navigability, then report remaining intentionally unresolved questions.
