@@ -36,10 +36,10 @@
 - Consumes: approved design spec and repository-harness workflow principles.
 - Produces: the compact entry point and work-shape routing that all later agents and contributors must follow.
 
-- [ ] **Step 1: Create `AGENTS.md`** with only high-value routing rules: repository as system of record, MATLAB R2022b baseline, generated-code ownership, research/production boundary, Learn Mode defaults, human authority gate, durable plan routing, and evidence-before-completion.
-- [ ] **Step 2: Create `README.md`** describing project purpose, toolchain baseline, repository map, current non-goals, and the first learning milestone.
-- [ ] **Step 3: Create `docs/WORKFLOW.md`** covering read-only work, Learn/Pair/Execute modes, bounded changes, durable planned work, research experiments, production changes, codegen changes, debugging, validation, and completion reporting.
-- [ ] **Step 4: Verify** the three files contain no algorithm choice, numeric tolerance, hardware assumption, CI choice, or fabricated validation command.
+- [x] **Step 1: Create `AGENTS.md`** with only high-value routing rules: repository as system of record, MATLAB R2022b baseline, generated-code ownership, research/production boundary, Learn Mode defaults, human authority gate, durable plan routing, and evidence-before-completion.
+- [x] **Step 2: Create `README.md`** describing project purpose, toolchain baseline, repository map, current non-goals, and the first learning milestone.
+- [x] **Step 3: Create `docs/WORKFLOW.md`** covering read-only work, Learn/Pair/Execute modes, bounded changes, durable planned work, research experiments, production changes, codegen changes, debugging, validation, and completion reporting.
+- [x] **Step 4: Verify** the three files contain no algorithm choice, numeric tolerance, hardware assumption, CI choice, or fabricated validation command.
 
 ### Task 2: Record accepted contracts and decisions
 
@@ -54,10 +54,10 @@
 - Consumes: approved design spec.
 - Produces: authoritative product/codegen boundaries and lasting decisions future work must inherit.
 
-- [ ] **Step 1: Create `problem-model.md`** with sections for purpose, entities, inputs, outputs, decision variables, constraints, objectives, assumptions, unresolved semantics, intended scale, and non-goals; keep unresolved domain semantics explicit rather than guessed.
-- [ ] **Step 2: Create `codegen-contract.md`** with accepted R2022b facts and an explicit list of intentionally unresolved production contracts such as numeric tolerance, array sizing, dynamic memory, runtime deadline, and target hardware.
-- [ ] **Step 3: Create the three decision records** for toolchain, research/production boundary, and learning policy, including context, decision, consequences, and status.
-- [ ] **Step 4: Verify** that decisions agree with the spec and do not promote currently unresolved items into policy.
+- [x] **Step 1: Create `problem-model.md`** with sections for purpose, entities, inputs, outputs, decision variables, constraints, objectives, assumptions, unresolved semantics, intended scale, and non-goals; keep unresolved domain semantics explicit rather than guessed.
+- [x] **Step 2: Create `codegen-contract.md`** with accepted R2022b facts and an explicit list of intentionally unresolved production contracts such as numeric tolerance, array sizing, dynamic memory, runtime deadline, and target hardware.
+- [x] **Step 3: Create the three decision records** for toolchain, research/production boundary, and learning policy, including context, decision, consequences, and status.
+- [x] **Step 4: Verify** that decisions agree with the spec and do not promote currently unresolved items into policy.
 
 ### Task 3: Establish learning and durable-memory surfaces
 
@@ -73,11 +73,11 @@
 - Consumes: Learn Mode policy and repository-harness durable-plan model.
 - Produces: persistent learning state, misconception evidence, unresolved-question ownership, and resumable work memory.
 
-- [ ] **Step 1: Create `knowledge-map.md`** with the status vocabulary `UNSEEN`, `LEARNING`, `IMPLEMENTED`, `VERIFIED`, `UNDERSTOOD` and initial neutral knowledge areas: mathematical modeling, graph theory, computational geometry, combinatorial optimization, complexity, MATLAB implementation, testing, and MATLAB Coder engineering.
-- [ ] **Step 2: Create `mistake-log.md`** with a reusable record format containing belief, contradicting evidence, smallest counterexample, root cause/missing concept, learned invariant, and regression evidence.
-- [ ] **Step 3: Create `open-questions.md`** with only questions already known to be unresolved: geometric-conflict semantics, endpoint-touch policy, numeric precision/tolerance, production size limits, memory policy, runtime budget, and deployment hardware.
-- [ ] **Step 4: Create `exec-plan.md`** based on repository-harness durable-plan fields: status, outcome, context, scope, approach, risks/recovery, progress, decisions, validation, and result.
-- [ ] **Step 5: Add plan directory keepers** so the active/completed contract is visible before the first durable task.
+- [x] **Step 1: Create `knowledge-map.md`** with the status vocabulary `UNSEEN`, `LEARNING`, `IMPLEMENTED`, `VERIFIED`, `UNDERSTOOD` and initial neutral knowledge areas: mathematical modeling, graph theory, computational geometry, combinatorial optimization, complexity, MATLAB implementation, testing, and MATLAB Coder engineering.
+- [x] **Step 2: Create `mistake-log.md`** with a reusable record format containing belief, contradicting evidence, smallest counterexample, root cause/missing concept, learned invariant, and regression evidence.
+- [x] **Step 3: Create `open-questions.md`** with only questions already known to be unresolved: geometric-conflict semantics, endpoint-touch policy, numeric precision/tolerance, production size limits, memory policy, runtime budget, and deployment hardware.
+- [x] **Step 4: Create `exec-plan.md`** based on repository-harness durable-plan fields: status, outcome, context, scope, approach, risks/recovery, progress, decisions, validation, and result.
+- [x] **Step 5: Add plan directory keepers** so the active/completed contract is visible before the first durable task.
 
 ### Task 4: Establish MATLAB/test/benchmark navigation skeleton
 
@@ -94,12 +94,12 @@
 - Consumes: production/research boundary, validation strategy, generated-artifact policy.
 - Produces: visible ownership boundaries without fake code or generated output.
 
-- [ ] **Step 1: Create production MATLAB boundary README** documenting the planned package areas (`model`, `geometry`, `assignment`, `constraints`, `solver`) without creating algorithm implementations.
-- [ ] **Step 2: Create research README** documenting permitted toolbox/reference/experiment/visualization use and the rule that research correctness does not automatically confer production status.
-- [ ] **Step 3: Create tests README** defining unit, integration, differential, adversarial, and codegen evidence surfaces and the `predict -> RED -> GREEN -> explain` Learn Mode flow.
-- [ ] **Step 4: Create benchmark and dataset READMEs** defining reproducibility requirements, including generator/dataset version, seed, configuration, instance size, and revision.
-- [ ] **Step 5: Create codegen config README** documenting that entry points/configuration belong here while generated output is derived and excluded by default.
-- [ ] **Step 6: Create `.gitignore`** for MATLAB temporary files, MATLAB Coder/code generation output, common compiled objects, editor/OS noise, and local worktree folders; do not ignore authoritative source, tests, docs, configs, or reproducible datasets by default.
+- [x] **Step 1: Create production MATLAB boundary README** documenting the planned package areas (`model`, `geometry`, `assignment`, `constraints`, `solver`) without creating algorithm implementations.
+- [x] **Step 2: Create research README** documenting permitted toolbox/reference/experiment/visualization use and the rule that research correctness does not automatically confer production status.
+- [x] **Step 3: Create tests README** defining unit, integration, differential, adversarial, and codegen evidence surfaces and the `predict -> RED -> GREEN -> explain` Learn Mode flow.
+- [x] **Step 4: Create benchmark and dataset READMEs** defining reproducibility requirements, including generator/dataset version, seed, configuration, instance size, and revision.
+- [x] **Step 5: Create codegen config README** documenting that entry points/configuration belong here while generated output is derived and excluded by default.
+- [x] **Step 6: Create `.gitignore`** for MATLAB temporary files, MATLAB Coder/code generation output, common compiled objects, editor/OS noise, and local worktree folders; do not ignore authoritative source, tests, docs, configs, or reproducible datasets by default.
 
 ### Task 5: Repository-level verification and handoff
 
@@ -111,8 +111,14 @@
 - Consumes: full bootstrap diff.
 - Produces: evidence that the scaffold matches the approved design and contains no accidental domain implementation.
 
-- [ ] **Step 1: Compare the feature branch to `main`** and enumerate every changed path.
-- [ ] **Step 2: Check spec coverage**: toolchain, generated-code ownership, research/production boundary, learning modes, authority gate, durable plans, codegen contract, validation taxonomy, benchmark reproducibility, and deferred CI must each map to a concrete repository artifact.
-- [ ] **Step 3: Scan for forbidden premature policy**: numeric tolerances, hardware target, runtime deadline, maximum production dimensions, specific production optimization algorithm, production toolbox solver, or CI provider.
-- [ ] **Step 4: Verify** there is no MATLAB production algorithm or generated C/C++ in the bootstrap diff.
-- [ ] **Step 5: Review** the diff for Markdown consistency and navigability, then report remaining intentionally unresolved questions.
+- [x] **Step 1: Compare the feature branch to `main`** and enumerate every changed path.
+- [x] **Step 2: Check spec coverage**: toolchain, generated-code ownership, research/production boundary, learning modes, authority gate, durable plans, codegen contract, validation taxonomy, benchmark reproducibility, and deferred CI must each map to a concrete repository artifact.
+- [x] **Step 3: Scan for forbidden premature policy**: numeric tolerances, hardware target, runtime deadline, maximum production dimensions, specific production optimization algorithm, production toolbox solver, or CI provider.
+- [x] **Step 4: Verify** there is no MATLAB production algorithm or generated C/C++ in the bootstrap diff.
+- [x] **Step 5: Review** the diff for Markdown consistency and navigability, then report remaining intentionally unresolved questions.
+
+## Execution Result
+
+Repository-level verification on 2026-08-21 showed the feature branch adds only Harness documentation, contracts, decision records, navigation skeletons, plan keepers, and `.gitignore`. The diff contains no MATLAB production implementation and no generated C/C++ output. MATLAB executable tests are not yet applicable because this bootstrap intentionally introduces no production behavior.
+
+Intentionally unresolved items remain numeric tolerance/representation, production size limits, fixed/variable sizing, memory policy, runtime budget, deployment hardware/runtime, production optimization algorithm, and MATLAB CI/license topology.
